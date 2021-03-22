@@ -1,5 +1,7 @@
 # Frontend Mentor - Project tracking intro component solution
 
+![image](https://user-images.githubusercontent.com/64808015/111981270-bc975b80-8b07-11eb-9704-660ffc24334f.png)
+
 This is a solution to the [Project tracking intro component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/project-tracking-intro-component-5d289097500fcb331a67d80e). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Overview
