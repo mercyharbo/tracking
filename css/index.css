@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 3% 5%;
+}
+
+.toggle {
+  display: none;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+li {
+  list-style: none;
+  padding: 0 12px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.login a {
+  color: grey;
+  position: relative;
+}
+
+.circle {
+  font-size: 10px;
+  color: grey;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 5%;
+  line-height: 3;
+}
+
+.new {
+  background-color: hsl(230, 29%, 20%);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-align: center;
+  font-weight: 700;
+}
+
+label {
+  margin-left: 5px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: hsl(231, 7%, 65%);
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  width: 70%;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 900;
+  line-height: 50px;
+  letter-spacing: 3px;
+}
+
+.sub-paragraph {
+  width: 50%;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 5% 0;
+  opacity: 70%;
+}
+
+button {
+  border: 0;
+  border-radius: 10px;
+  background-color: hsl(0, 100%, 68%);
+  text-transform: uppercase;
+  padding: 3%;
+  color: white;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 3px;
+  box-shadow: 1px 1px 2px black;
+}
+
+.btn-text {
+  margin-left: 5%;
+  text-transform: uppercase;
+  color: hsl(231, 7%, 65%);
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 3px;
+}
+
+.image-grid {
+  position: relative;
+}
+
+.image-grid img {
+  max-width: 100%;
+  position: absolute;
+  left: 35%;
+  top: 0;
+}
+
+.graphic {
+  height: 350px;
+  width: 600px;
+  background: hsl(207, 33%, 95%);
+  border-bottom-left-radius: 30px;
+  position: absolute;
+  top: -70%;
+  left: 20%;
+  z-index: -1;
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    width: 100%;
+    padding: 0 10%;
+    overflow: hidden;
+    height: 100vh;
+  }
+
+  .nav-items,
+  nav {
+    padding: 5% 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  li {
+    padding: 5px 0;
+  }
+
+  .toggleShow {
+    display: flex;
+  }
+
+  .nav-links {
+    display: block;
+    padding: 10% 0;
+  }
+
+  .toggle {
+    align-self: flex-end;
+    display: initial;
+    cursor: pointer;
+    font-size: 25px;
+    margin-left: auto;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .image-grid img{
+    max-width: 400px;
+    top: 40px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+  .content {
+    margin-top: 300px;
+  }
+
+  .new {
+    font-size: 14px;
+    padding: 3px 5px;
+  }
+
+  label {
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    width: 100%;
+    line-height: 30px;
+    font-weight: 900;
+  }
+
+  .sub-paragraph {
+    width: 80%;
+    font-size: 14px;
+  }
+
+  button {
+    padding: 2%;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .btn-text {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  .graphic {
+    height: 370px;
+    width: 200px;
+    left: 50%;
+    top: -80px;
+    overflow: hidden;
+  }
+
+  .attribution {
+    padding-top: 15%;
+  }
+}
