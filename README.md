@@ -17,7 +17,7 @@ Users should be able to:
 ### Links
 
 - Solution URL:  https://github.com/mercyharbo/tracking
-- Live Site URL: http://mercyharbo.github.io/tracking
+- Live Site URL: https://mercyharbo.github.io/tracking
 
 ## My process
 
